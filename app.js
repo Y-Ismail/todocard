@@ -170,7 +170,7 @@ saveBtn.addEventListener('click',()=> {
      let chosendate = new Date(dateInput.value)
      console.log(dateInput.value)
      const duevalue = chosendate.toLocaleDateString("en-GB",{year:"numeric", day:"numeric",month:"long"})
-     // titleInput.value === '' ? title.innerText = title.innerText  : title.innerText = titleInput.value;
+     
      if(titleInput.value === ''){
         return  
      } else{
@@ -214,6 +214,3 @@ saveBtn.addEventListener('click',()=> {
 })
 
 
-if(priority.innerText === 'High'){
-
-}
